@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1705684875 source:c:\users\game pc\desktop\code\c++\umiem_to\main.cpp
+	<iostream>
+	<ctime>
+	<cmath>
+	"pracownik.h"
+
+1705682651 c:\users\game pc\desktop\code\c++\umiem_to\pracownik.h
+	"osoba.h"
+
+1705684711 c:\users\game pc\desktop\code\c++\umiem_to\osoba.h
+
+1705682430 source:c:\users\game pc\desktop\code\c++\umiem_to\pracwonik.cpp
+	<iostream>
+	"pracownik.h"
+
+1705679260 source:c:\users\game pc\desktop\code\c++\umiem_to\osoba.cpp
+	<iostream>
+	"osoba.h"
+

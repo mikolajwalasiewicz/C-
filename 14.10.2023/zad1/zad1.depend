@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1697295062 source:d:\studia\c++_prog_obiektowe\zaj2\zad1\main.cpp
+	"bib.h"
+
+1697295292 d:\studia\c++_prog_obiektowe\zaj2\zad1\bib.h
+	<iostream>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1701866514 source:c:\users\mikol\desktop\c\projekt1\class.cpp
+	"bib.h"
+	<iostream>
+
+1701866230 source:c:\users\mikol\desktop\c\projekt1\main.cpp
+	<iostream>
+	"bib.h"
+
+1701866581 c:\users\mikol\desktop\c\projekt1\bib.h
+

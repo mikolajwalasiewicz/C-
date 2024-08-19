@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1698153424 source:f:\studia\c++_prog_obiektowe\zaj3\zad1.cpp\class.cpp
+	<iostream>
+
+1698153606 f:\studia\c++_prog_obiektowe\zaj3\zad1.cpp\bib.h
+	<cstring>
+
+1698153632 source:f:\studia\c++_prog_obiektowe\zaj3\zad1.cpp\main.cpp
+	<iostream>
+	"class.cpp"
+	"bib.h"
+	<string>
+
+1698153424 f:\studia\c++_prog_obiektowe\zaj3\zad1.cpp\class.cpp
+	<iostream>
+

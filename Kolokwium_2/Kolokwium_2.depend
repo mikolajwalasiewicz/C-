@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1705508713 source:c:\users\game pc\desktop\code\c++\kolokwium_2\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"pracownik.h"
+
+1705508916 c:\users\game pc\desktop\code\c++\kolokwium_2\pracownik.h
+	"osoba.h"
+
+1705510226 c:\users\game pc\desktop\code\c++\kolokwium_2\osoba.h
+
+1705508675 source:c:\users\game pc\desktop\code\c++\kolokwium_2\osoba.cpp
+	<iostream>
+	"osoba.h"
+
+1705508694 source:c:\users\game pc\desktop\code\c++\kolokwium_2\pracownik.cpp
+	<iostream>
+	"pracownik.h"
+

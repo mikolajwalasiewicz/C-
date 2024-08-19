@@ -1,0 +1,254 @@
+
+
+		Programowanie i struktury danych - cwiczenia 8
+
+
+
+
+			Wektory w R3
+			----------------
+
+
+	Wektory w przestrzeni trojwymiarowej R3 
+	zapisujemy w postaci:
+
+		V=[x, y, z], 
+
+	gdzie x, y, z sa liczbami rzeczywistymi.
+
+	*  Iloczynem skalarnym dwoch wektorow 
+	V1=[x1, y1, z1] i V2=[x2, y2, z2] 
+	jest liczba okreslona wzorem:
+
+	< V1 | V2 > = x1*x2+y1*y2+z1*z2.
+
+	Wektory V1 i V2 s¹ prostopadle wtedy i tylko wtedy, 
+	gdy ich iloczyn skalarny jest rowny 0.
+			
+	*  Iloczynem wektorowym dwoch wektorow 
+	V1=[x1, y1, z1] i V2=[x2, y2, z2] 
+	jest wektor okreslony nastepujaco:
+
+	V1 X V2 = [y1*z2-z1*y2, z1*x2-x1*z2, x1*y2-y1*x2].
+
+	Wektory V1 i V2 sa rownolegle wtedy i tylko wtedy, 
+	gdy ich iloczyn wektorowy jest rowny [0, 0, 0].
+
+
+	********************************************
+
+			
+			Kolektor: Wektor
+			--------------------
+
+
+	Napisac program, ktory reprezentuje przestrzen 
+	trojwymiarowa R3 jako kolektor (vector) o nazwie V, 
+	ktorego elementami sa struktury wektor o trzech skladowych 
+	typu float reprezentujace wektory przestrzeni V.
+
+	Program podaje uzytkownikowi do wyboru nastepujace opcje:
+
+	1. Dodaj wektor do przestrzeni V 
+		Uzyj funkcji dodajacej strukture 
+		wektor do kolektora V.
+
+	2. Usun ostatni wektor z przestrzeni V
+		Uzyj funkcji usuwajacej ostatnia 
+		strukture wektor z kolektora V.
+
+	3. Wypisz wszystkie wektory przestrzeni V
+		Opcja wypisuje wszystkie wektory 
+		aktualnie znajdujace siê w przestrzeni V.
+ 
+	4. Wymnoz skalarnie dwa wektory
+		Uzyj funkcji 'iloczyn_skalarny' obliczaj¹cej 
+		iloczyn skalarny dwoch wektorow.
+		Sk³adowe wektorow wprowadzane sa z konsoli.
+		W przypadku gdy wektory sa prostopadle 
+		wyswietl odpowiedni komunikat.
+
+	5. Wymnoz wektorowo dwa wektory
+		Uzyj funkcji 'iloczyn' obliczaj¹cej  
+		iloczyn wektorowy dwoch wektorow.
+		Skladowe wektorow wprowadzane sa z konsoli.
+		Po wyswietleniu iloczynu wektorowego dodaj go do kolektora.
+		W przypadku gdy wektory sa równolegle 
+		wyswietl odpowiedni komunikat.
+
+	6. Wyjdz
+		Program konczy dzialanie.
+
+	Do wprowadzania z konsoli skladowych 
+	struktury wektor uzyj funkcji 'wczytaj'.
+
+	Do wypisywania struktury wektor w 
+	odpowiedniej postaci uzyj funkcji 'wypisz'.
+
+
+	*****************************************
+
+
+		Na przyklad.
+
+ 	Zbior wektorow w R3: [x, y, z]
+
+	Opcje do wyboru:
+	1: Dodaj wektor do zbioru
+	2: Usun ostatni wektor
+	3: Wypisz wszystkie wektory
+	4: Wymnoz skalarnie dwa wektory
+	5: Wymnoz wektorowo dwa wektory
+	6: Wyjdz
+
+	Wybierz dzialanie: 4
+	Wybor = 4
+
+	Mnozymy skalarnie dwa wektory v i w.
+
+	Podaj wspolrzedne wektora v:
+
+	Podaj x: -5
+
+	Podaj y: 1
+
+	Podaj z: -2
+
+	v=[-5, 1, -2]
+
+
+	Podaj wspolrzedne wektora w:
+
+	Podaj x: 0
+
+	Podaj y: 8
+
+	Podaj z: 6
+
+	w=[0, 8, 6]
+
+
+	Iloczyn skalarny:
+
+	< v | w > =-4
+
+	Wektory v i w nie sa prostopadle.
+
+
+	Opcje do wyboru:
+	1: Dodaj wektor do zbioru
+	2: Usun ostatni wektor
+	3: Wypisz wszystkie wektory
+	4: Wymnoz skalarnie dwa wektory
+	5: Wymnoz wektorowo dwa wektory
+	6: Wyjdz
+
+	Wybierz dzialanie: 5
+	Wybor = 5
+
+	Mnozymy wektorowo dwa wektory v i w.
+
+	Podaj wspolrzedne wektora v:
+
+	Podaj x: -1
+
+	Podaj y: 2
+
+	Podaj z: 1
+
+	v=[-1, 2, 1]
+
+
+	Podaj wspolrzedne wektora w:
+
+	Podaj x: 2
+
+	Podaj y: 5
+
+	Podaj z: 1
+
+	w=[2, 5, 1]
+
+
+	Iloczyn wektorowy:
+
+ 	v X w =[-3, 3, -9]
+
+	Wektory v i w nie sa rownolegle.
+
+
+	Opcje do wyboru:
+	1: Dodaj wektor do zbioru
+	2: Usun ostatni wektor
+	3: Wypisz wszystkie wektory
+	4: Wymnoz skalarnie dwa wektory
+	5: Wymnoz wektorowo dwa wektory
+	6: Wyjdz
+
+	Wybierz dzialanie: 5
+	Wybor = 5
+
+	Mnozymy wektorowo dwa wektory v i w.
+
+	Podaj wspolrzedne wektora v:
+
+	Podaj x: 4
+
+	Podaj y: 2
+
+	Podaj z: 3
+
+	v=[4, 2, 3]
+
+
+	Podaj wspolrzedne wektora w:
+
+	Podaj x: 2
+
+	Podaj y: 6
+
+	Podaj z: 4
+
+	w=[2, 6, 4]
+
+
+	Iloczyn wektorowy:
+
+ 	v X w =[-10, -10, 20]
+
+	Wektory v i w nie sa rownolegle.
+
+
+	Opcje do wyboru:
+	1: Dodaj wektor do zbioru
+	2: Usun ostatni wektor
+	3: Wypisz wszystkie wektory
+	4: Wymnoz skalarnie dwa wektory
+	5: Wymnoz wektorowo dwa wektory
+	6: Wyjdz
+
+
+	Wybierz dzialanie: 3
+	Wybor = 3
+
+
+	Zbior zawiera wektory:
+
+	[-3, 3, -9]
+	[-10, -10, 20]
+
+
+	Opcje do wyboru:
+	1: Dodaj wektor do zbioru
+	2: Usun ostatni wektor
+	3: Wypisz wszystkie wektory
+	4: Wymnoz skalarnie dwa wektory
+	5: Wymnoz wektorowo dwa wektory
+	6: Wyjdz
+
+
+	Wybierz dzialanie: 6
+	Wybor = 6
+
+	Koniec.
+

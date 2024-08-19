@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1705432134 source:c:\users\game pc\desktop\code\c++\zadanie2_kolokwium2\class.cpp
+
+1705431650 source:c:\users\game pc\desktop\code\c++\zadanie2_kolokwium2\main.cpp
+	<iostream>
+	"bib.h"
+
+1705431993 c:\users\game pc\desktop\code\c++\zadanie2_kolokwium2\bib.h
+	<iostream>
+	"class.cpp"
+
+1705431967 c:\users\game pc\desktop\code\c++\zadanie2_kolokwium2\class.cpp
+	"bib.h"
+	<iostream>
+

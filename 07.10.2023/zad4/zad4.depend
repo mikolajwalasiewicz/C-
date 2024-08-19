@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1696781794 source:c:\users\mikol\desktop\studia\c++\projekt_madafaka\zad4\zad4\main.cpp
+	"bib.h"
+
+1696782391 c:\users\mikol\desktop\studia\c++\projekt_madafaka\zad4\zad4\bib.h
+	<iostream>
+	<cmath>
+

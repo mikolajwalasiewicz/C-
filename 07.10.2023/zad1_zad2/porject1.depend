@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1696712132 source:c:\users\server\desktop\files\c++\1\tosamo\porject1\main.cpp
+	"bib.h"
+
+1696712276 c:\users\server\desktop\files\c++\1\tosamo\porject1\bib.h
+	<iostream>
+	<ctime>
+
